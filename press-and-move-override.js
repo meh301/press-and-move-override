@@ -26,7 +26,7 @@ AFRAME.registerComponent('press-and-move', {
     schema: {
         acceleration: { default: 30 },
         constrainToNavMesh: { default: false },
-        enabled: { default: true },
+        enabled: { default: false },
         fly: { default: false },
         longPressDurationThreshold: { default: 500 },
     },
