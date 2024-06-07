@@ -8,8 +8,10 @@
 
 /* global AFRAME, ARENA, THREE */
 
-import { ARENA_EVENTS } from '../../constants';
-import { ARENAUtils } from '../../utils';
+// import { ARENA_EVENTS } from '../../constants';
+// import { ARENAUtils } from '../../utils';
+const ARENA_EVENTS = window.ARENA_EVENTS;
+    const ARENAUtils = window.ARENAUtils;
 
 
 if (AFRAME.components['arena-camera']) {
