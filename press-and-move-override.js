@@ -1,5 +1,10 @@
 /* global AFRAME, ARENA, THREE */
 
+// Unregister the existing 'press-and-move' component if it exists
+if (AFRAME.components['press-and-move']) {
+    delete AFRAME.components['press-and-move'];
+}
+
 /**
  * @fileoverview Support user camera movement with the mouse.
  * Adapted from: https://github.com/aframevr/aframe/blob/master/src/components/wasd-controls.js
